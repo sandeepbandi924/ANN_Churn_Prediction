@@ -19,7 +19,7 @@ with open('scaler.pkl','rb') as file:
     scaler = pickle.load(file)
 
 ##streamlit app
-st.title('Customer Churn Prediction')
+st.title('Customer Churn Prediction by Sandeep Bandi')
 
 # User input
 geography = st.selectbox('Geography', onehot_encoder_geo.categories_[0])
